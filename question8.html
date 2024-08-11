@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Layout</title>
+    <!-- <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f4f4f4;
+      }
+      .nested-table {
+        width: 100%;
+        border: none;
+      }
+      .nested-table td {
+        border: none;
+      }
+    </style> -->
+  </head>
+  <body>
+    <h1>Blog Posts</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Post Title</th>
+          <th>Author</th>
+          <th>Date</th>
+          <th>Excerpt</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Blog Post 1 -->
+        <tr>
+          <td>Exploring the Wonders of the Universe</td>
+          <td>Jane Doe</td>
+          <td>August 10, 2024</td>
+          <td>
+            This blog post delves into the mysteries of the cosmos and our place
+            within it...
+          </td>
+        </tr>
+        <!-- Nested Table for Additional Details -->
+        <tr>
+          <td colspan="4">
+            <table class="nested-table">
+              <tr>
+                <td><strong>Category:</strong> Science</td>
+                <td><strong>Tags:</strong> Astronomy, Space</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Blog Post 2 -->
+        <tr>
+          <td>Healthy Living Tips for a Balanced Life</td>
+          <td>John Smith</td>
+          <td>August 8, 2024</td>
+          <td>
+            Discover practical tips and advice on maintaining a healthy
+            lifestyle...
+          </td>
+        </tr>
+        <!-- Nested Table for Additional Details -->
+        <tr>
+          <td colspan="4">
+            <table class="nested-table">
+              <tr>
+                <td><strong>Category:</strong> Health</td>
+                <td><strong>Tags:</strong> Wellness, Nutrition</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Add more blog posts as needed -->
+      </tbody>
+    </table>
+  </body>
+</html>
